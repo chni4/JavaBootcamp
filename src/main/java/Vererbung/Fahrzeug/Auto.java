@@ -1,4 +1,4 @@
-package Vererbung;
+package Vererbung.Fahrzeug;
 
 public class Auto extends Fahrzeuge {
     private int Türen;
