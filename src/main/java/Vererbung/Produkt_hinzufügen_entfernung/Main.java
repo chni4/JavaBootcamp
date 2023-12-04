@@ -12,7 +12,7 @@ public class Main {
         orderRepo.placeOrder(1, productRepo.getAllProducts().get(0), 10, LocalDate.now(), productRepo);
         Scanner sc = new Scanner(System.in);
         System.out.println("Welches Produkt wollen sie erstellen? Geben Sie die Produktnummer ein:");
-        int ProNummer = Integer.parseInt(sc.next());
+        int ProNummer = sc.nextInt();
 
         Product nichtExistierendesProdukt = new Product(ProNummer, "Neues Produkt", 10.0);
         orderRepo.placeOrder(2, nichtExistierendesProdukt, 5, LocalDate.now(), productRepo);

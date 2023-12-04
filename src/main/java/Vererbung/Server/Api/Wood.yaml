@@ -1,0 +1,9 @@
+openapi: 3.0.3
+info:
+  title: WoodApi
+  description: WoodApi
+  version: 1.0.0
+servers:
+  - url: 'https'
+paths:
+  
